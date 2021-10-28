@@ -1,1 +1,3 @@
-# Train_data_from_3D_model
+# Train_data_from_3D_model (Work in progress)
+
+When finished, the idea of this project is to be able to create training data for a image recognition neural network by using 3D-models. At the moment it is being developed by trying out simple primitive shapes (cone, cube, sphere) with a default texture. 3D models are created in Blender and exported as .obj-files. Using those files the given objects are rendered using PyOpenGL. Those renders are then used to take snapshots of the objects in different positions, angles, (enviroments, lighting) etc. These images are then saved for further use. In the future the idea is to upload these images to a Minio client.
