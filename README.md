@@ -1,6 +1,9 @@
 # Train_data_from_3D_model (Work in progress)
 
+![](opengl.jpg)   ![](python.png)   ![](tf.png) 
+
 - At the moment running *main.py* starts the rendering loop and image buffering and "bulk saving" is also functional 
+
 
 - When finished, the idea of this project is to be able to create training data for a image recognition neural network by using 3D-models. At the moment it is being developed by trying out simple primitive shapes (cone, cube, sphere) with a default texture. 
 - The 3D-models are currently created in [Blender](https://www.blender.org/) and exported as .obj-files. Using those files the given objects are rendered using [PyOpenGL](http://pyopengl.sourceforge.net/). 
