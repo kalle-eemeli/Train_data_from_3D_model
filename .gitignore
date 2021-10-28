@@ -1,0 +1,6 @@
+# Image folder
+images/*/*
+# TODO list
+TODOS.txt
+# VisualStudioCode
+.vscode/*
